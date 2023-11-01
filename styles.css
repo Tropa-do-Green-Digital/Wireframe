@@ -59,14 +59,23 @@ body {
   }
 
   .navbar {
-    display: inline;
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 1rem;
   }
 
-  .menu  {
-    text-align: center;
-    display: inline;
-    
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    color: black;
+    list-style-type: none;
+    margin-left: 350px;
+    }
+
+  .img3 {
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 100px;
   }
